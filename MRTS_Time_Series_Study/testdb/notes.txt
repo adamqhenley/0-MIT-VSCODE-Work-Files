@@ -1,0 +1,12 @@
+queryset = [];
+querybase = 'INSERT INTO `csvtable` VALUES('
+querybuilder = ''
+for i in range(0,len(df_read_csv)):
+    querybuilder += f'{querybase}'
+    for j in range(0,len(df_read_csv[i])):
+        querybuilder += f'{df_read_csv[i][j]}' + '),('
+    querybuilder += ')'
+    queryset.append(querybuilder)
+    querybuilder = ''
+
+print(queryset)

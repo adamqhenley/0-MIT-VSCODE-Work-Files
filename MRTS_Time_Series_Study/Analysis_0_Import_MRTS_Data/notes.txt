@@ -1,0 +1,16 @@
+
+
+
+DROP TABLE IF EXISTS `Colleges`;
+CREATE TABLE `Colleges` (
+	`CollegeID`	int NOT NULL,
+	`Name`		varchar (20) NOT NULL,
+    `Students`	int NULL,
+    `City`		varchar (15) NULL,
+    `Region`	varchar (15) NULL,
+    `Country`	varchar (15) NULL,
+    `fare`	float(4) NOT NULL,
+    PRIMARY KEY (`CollegeID` ASC),
+    INDEX 	`CollegeID` (`CollegeID` ASC),
+    INDEX 	`Name` (`Name` ASC)
+) ENGINE=InnoDB	DEFAULT	CHARSET=UTF8MB4	COLLATE=utf8mb4_0900_ai_ci;
