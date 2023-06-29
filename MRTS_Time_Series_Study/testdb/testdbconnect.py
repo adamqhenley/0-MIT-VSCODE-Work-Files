@@ -2,8 +2,8 @@ import mysql.connector
 import pandas as pd
 import yaml
 
-path = 'MRTS_Time_Series_Study/Analysis_0_Import_MRTS_Data'
-dbinfo = yaml.safe_load(open(f'{path}/testdb/db.yaml'))
+path = 'MRTS_Time_Series_Study/testdb'
+dbinfo = yaml.safe_load(open(f'{path}/db.yaml'))
 config = {
     'user':             dbinfo['user'],
     'password':         dbinfo['pwrd'],
