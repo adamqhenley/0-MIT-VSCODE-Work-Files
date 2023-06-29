@@ -14,8 +14,6 @@ config = {
 
 db_connection_string = mysql.connector.connect(**config)
 
-
-
 query = 'SELECT * FROM csvtable'
 
 df = pd.read_sql(query, con= db_connection_string)
