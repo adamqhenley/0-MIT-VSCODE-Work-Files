@@ -1,0 +1,27 @@
+bookstores, sporting good stores, hobby toy/game stores
+
+Trends
+
+highest trend
+which grew faster
+which is higher?
+is there a seasonal pattern?
+are there any changes in 2020?
+Which is better-monthly or yearly?
+
+
+Percentage change
+
+percent that any curve contributes to the whole (overall)?
+
+ex: women's and men's clothing, how related, how relationship changes over time
+
+
+Rolling Time Window
+
+"last 12 months" "trailing 12 months"
+semester
+
+... invest time, bring insights into this dataset... how apply to which parts...
+
+open-ended... opportunity to extend analysis... 

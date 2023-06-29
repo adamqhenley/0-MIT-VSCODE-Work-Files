@@ -31,9 +31,15 @@ months = {'Jan':'01','Feb':'02','Mar':'03','Apr':'04','May':'05','Jun':'06','Jul
 
 #months_arr = months.keys()
 months_arr = []
-df_months = pd.DataFrame(df[['Description','Year']])
+df_months = pd.DataFrame(df[['Description','Year','Adjusted']])
 for m in months.keys():
     df_months[str(m)] = df[str(m)]
+
+
+print(df_months.shape)
+# filter for Adjusted = 1
+df_months = df_months.loc[df_months['Adjusted'] == 0]
+print(df_months.shape)
 
 #print(df_months.head())
 
